@@ -17,6 +17,28 @@
     ],
   };
 
+  function clone(origin, target) {
+      target = target || {},
+      toStr = Object.prototype.toString,
+      arrStr = '[object Array]';
+
+    for (let prop in origin) {
+      if (origin.hasOwnProperty(prop)) {
+        if (origin[prop] !== 'null' && typeof (origin[prop]) == 'object') {
+          if (toStr.call(origin[prop]) == arrStr) {
+            target[prop] = []
+          } else {
+            target[prop] = {}
+          }
+          clone(origin[prop], target[prop])
+        }
+      } else {
+        target[prop] = origin[prop];
+      }
+    }
+    return target;
+  }
+
   const mirrorData = clone(data);
 
   mirrorData.person[0].age = 19;

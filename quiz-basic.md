@@ -9,35 +9,35 @@
 
 请在下面的表格中作答：
 
-| 名词           | 是什么               |
-| :------------- | :------------------- |
-| Node.js        | 是 JS 的一个 runtime |
-| npm            | 是 ……                |
-| npx            | 是 ……                |
-| nvm            | 是 ……                |
-| nrm            | 是 ……                |
-| yarn           | 是 ……                |
-| React          | 是 ……                |
-| Vue            | 是 ……                |
-| Flux           | 是 ……                |
-| Mobx           | 是 ……                |
-| MVVM           | 是 ……                |
-| TDD            | 是 ……                |
-| Jest/Mocha     | 是 ……                |
-| node_modules   | 是 ……                |
-| package.json   | 是 ……                |
-| ECMAScript     | 是 ……                |
-| Electron       | 是 ……                |
-| Babel          | 是 ……                |
-| Webpack        | 是 ……                |
-| SSR            | 是 ……                |
-| BFF            | 是 ……                |
-| Serverless     | 是 ……                |
-| PWA            | 是 ……                |
-| V8             | 是 ……                |
-| libuv          | 是 ……                |
-| Stack Overflow | 是 ……                |
-| Deno           | 是 ……                |
+| 名词           | 是什么                         |
+| :------------- | :----------------------------- |
+| Node.js        | 是 JS 的一个 runtime           |
+| npm            | 是Node.js包管理工具            |
+| npx            | 是帮你执行依赖包里的二进制文件 |
+| nvm            | 是一个node的版本管理工具       |
+| nrm            | 是npm的镜像源管理工具          |
+| yarn           | 是 ……                          |
+| React          | 是一个简单的javascript UI库    |
+| Vue            | 是可以减少dom操作的js框架      |
+| Flux           | 是 ……                          |
+| Mobx           | 是 ……                          |
+| MVVM           | 是 ……                          |
+| TDD            | 是 ……                          |
+| Jest/Mocha     | 是 ……                          |
+| node_modules   | 是 ……                          |
+| package.json   | 是 ……                          |
+| ECMAScript     | 是 ……                          |
+| Electron       | 是 ……                          |
+| Babel          | 是 ……                          |
+| Webpack        | 是 ……                          |
+| SSR            | 是 ……                          |
+| BFF            | 是 ……                          |
+| Serverless     | 是 ……                          |
+| PWA            | 是 ……                          |
+| V8             | 是 ……                          |
+| libuv          | 是 ……                          |
+| Stack Overflow | 是 ……                          |
+| Deno           | 是 ……                          |
 
 ## Q2
 

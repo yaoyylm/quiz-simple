@@ -6,7 +6,20 @@
  * @returns {number} 返回和
  */
 const getSumOfTriple = (arr, start, end) => {
+  if (!arr) {
+    return
+  }
   // 请实现……
+  if (start && end) {
+    arr = arr.filter(num => num > start && num < end)
+  }
+  let count = 0;
+  arr.forEach(num => {
+    if (num % 3 === 0) {
+      count += num
+    }
+  })
+  return count;
 };
 
 // * ---------------- 实现的效果：
@@ -25,6 +38,5 @@ const getSumOfTriple = (arr, start, end) => {
 
   // 203, 210, 217, 224, 231, 238, ..., 455, 462, 469, 476, 483, 490, 497
   //      210            231       ...       462            483
-
   console.log(getSumOfTriple(arr, 200, 500)); // => 4851
 }
