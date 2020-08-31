@@ -3,10 +3,18 @@
 
 // * ---------------- 请补充……
 
-const getData = async () =>
-  await fetch('https://jsonplaceholder.typicode.com/todos/').then((response) => response.json());
+type todo = {
+  userid: number,
+  id: number,
+  title: string,
+  completed: boolean
+}
 
-getData().then((e) => console.log(e));
+
+const getData = async () =>
+  await fetch('https://jsonplaceholder.typicode.com/todos/').then((response: Response): Promise<todo[]> => response.json());
+
+getData().then((e) => console.log(e.length));
 
 // * ---------------- TS 的示例
 
